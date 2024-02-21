@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  
+
   # GET /users
   def index
     @users = User.all
@@ -24,18 +26,22 @@ class UsersController < ApplicationController
 
   # PUT /users/:id
   def update
-    @user = User.find(find_user[:id])
-    if @user && !@user.authenticate(edit_user_params[:currentPassword])
-      render json: { message: "no password matches" }, status: :forbidden
-    else   
+   
+    @user = User.find(find_user[:id ])
+    # if @user && !@user.authenticate(edit_user_params[:currentPassword])
+    #   render json: { message: "no password matches" }, status: :forbidden
+    # else   
       unless @user.update(
         name: edit_user_params[:name],
         email: edit_user_params[:email],
+        password: edit_user_params[:password]
+
       )
         render json: { errors: @user.errors.full_messages },
                status: :unprocessable_entity
-      else 
+      
         render json: @user, status: :ok
+        
       end     
     end
   end
@@ -65,7 +71,7 @@ class UsersController < ApplicationController
 
   def edit_user_params
     params.require(:user).permit(
-      :name, :email, :newPassword, :currentPassword, :password
+      :name, :email, :password, :currentPassword
     )
   end
-end
+
