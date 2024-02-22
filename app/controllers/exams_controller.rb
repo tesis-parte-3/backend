@@ -1,13 +1,21 @@
 class ExamsController < ApplicationController
+
+
+  # GET /exams
+
   def index
-    @exams = Exam.all
+    @exams = Exam.get_quizzes(params[:level])
     render json: @exams, status: :ok
   end
+
+  # GET /exams/:id
 
   def show
     @exam = Exam.find(params[:id])
     render json: @exam, status: :ok
   end
+
+  # POST /exams
 
   def create
     @exam = Exam.new(exam_params)
@@ -19,6 +27,8 @@ class ExamsController < ApplicationController
     end
   end
 
+  # PUT /exams/:id
+
   def update
     @exam = Exam.find(params[:id])
 
@@ -28,6 +38,8 @@ class ExamsController < ApplicationController
       render json: { message: "Exam cannot be updated" }, status: :unprocessable_entity
     end
   end
+
+  # DELETE /exams/:id
 
   def destroy
     @exam = Exam.find(params[:id])
