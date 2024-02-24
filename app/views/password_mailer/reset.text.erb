@@ -1,0 +1,7 @@
+Hola <%= @user.name %>,
+
+alguien solicito reiniciar tu contraseña en <%= @app_name %>. 
+
+Si fuiste tu, haz click en el siguiente enlace para reiniciar tu contraseña. el link expirará en 15 minutos.
+
+<%= password_reset_edit_url(token: @token) %>
