@@ -59,13 +59,13 @@ class UsersController < ApplicationController
   # PUT /users/:id
   def update
     @user = User.find(params[:id])
-    if @user.update(edit_user_params.compact_blank)
+    unless @user.update(edit_user_params)
       render json: @user, status: :ok
     else
       render json: { errors: @user.errors.full_messages },
              status: :unprocessable_entity       
     end
-  end
+  end  
 
   private
 
