@@ -108,6 +108,6 @@ class UsersController < ApplicationController
   end
 
   def edit_user_params
-    params.require(:user).permit(:name, :email, :password).reject { |_, v| v.blank? }
+    params.require(:user).permit(:name, :email, :password).reject { |_, v| v.to_s.strip.empty? }
   end
 end
