@@ -57,7 +57,9 @@ class UsersController < ApplicationController
   end
 
   # PUT /users/:id
+
   def update
+<<<<<<< HEAD
     @user = User.find(params[:id])
    
 	if  @user.update(edit_user_params)
@@ -67,6 +69,28 @@ class UsersController < ApplicationController
              status: :unprocessable_entity       
     end
 end 
+=======
+   
+    @user = User.find(find_user[:id ])
+    # if @user && !@user.authenticate(edit_user_params[:currentPassword])
+    #   render json: { message: "no password matches" }, status: :forbidden
+    # else   
+      unless @user.update(
+        name: edit_user_params[:name],
+        email: edit_user_params[:email],
+        password: edit_user_params[:password]
+
+      )
+        render json: { errors: @user.errors.full_messages },
+               status: :unprocessable_entity
+      
+        render json: @user, status: :ok
+        
+      end     
+    end
+  end
+
+>>>>>>> refs/remotes/origin/main
 
   private
 
@@ -108,5 +132,13 @@ end
     params.require(:user).permit(:email)
   end
 
+<<<<<<< HEAD
 end
+=======
+  def edit_user_params
+    params.require(:user).permit(
+      :name, :email, :password, :currentPassword
+    )
+  end
+>>>>>>> refs/remotes/origin/main
 
