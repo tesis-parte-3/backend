@@ -64,20 +64,22 @@ class UsersController < ApplicationController
     # if @user && !@user.authenticate(edit_user_params[:currentPassword])
     #   render json: { message: "no password matches" }, status: :forbidden
     # else   
-      unless @user.update(
+      if @user.update(
         name: edit_user_params[:name],
         email: edit_user_params[:email],
         password: edit_user_params[:password]
 
       )
+
+	render json: @user , status :ok
+
+	else								
+
         render json: { errors: @user.errors.full_messages },
                status: :unprocessable_entity
-      else
-        render json: @user, status: :ok
         
       end     
-    end
-  
+    end 
 
 
 
