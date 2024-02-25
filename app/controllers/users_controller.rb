@@ -121,4 +121,4 @@ class UsersController < ApplicationController
       :name, :email, :password, :currentPassword
     )
   end
-
+end
