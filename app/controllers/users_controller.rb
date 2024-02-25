@@ -59,7 +59,7 @@ class UsersController < ApplicationController
   # PUT /users/:id
   def update
     @user = User.find(params[:id])
-    if @user.update(edit_user_params.compact)
+    if @user.update(edit_user_params.compact_blank)
       render json: @user, status: :ok
     else
       render json: { errors: @user.errors.full_messages },
