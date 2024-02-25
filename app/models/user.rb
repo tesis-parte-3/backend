@@ -8,7 +8,7 @@ class User < ApplicationRecord
     validates :name, presence: true
     validates :password,
               length: { minimum:8 },
-              if: -> { password.length > 0 }
+              if: -> { !password.nil? }
 
     def generate_password_token
         self.reset_password_token = SecureRandom.hex(3).upcase!
