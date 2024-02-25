@@ -59,18 +59,7 @@ class UsersController < ApplicationController
   # PUT /users/:id
 
   def update
-<<<<<<< HEAD
-    @user = User.find(params[:id])
-   
-	if  @user.update(edit_user_params)
-      render json: @user, status: :ok
-    else
-      render json: { errors: @user.errors.full_messages },
-             status: :unprocessable_entity       
-    end
-end 
-=======
-   
+
     @user = User.find(find_user[:id ])
     # if @user && !@user.authenticate(edit_user_params[:currentPassword])
     #   render json: { message: "no password matches" }, status: :forbidden
@@ -90,20 +79,36 @@ end
     end
   end
 
->>>>>>> refs/remotes/origin/main
 
-  private
 
-  # DELETE /users/:id
-  def destroy
-    @user = User.find(find_user[:id])
-    if @user.destroy
-      render json: { message: "User has been destroyed", user: @user }, status: :ok
-    else
-      render json: { message: "User cannot be destroy" },
-             status: :unprocessable_entity
-    end
-  end
+
+
+
+
+
+
+#     @user = User.find(params[:id])
+   
+# 	if  @user.update(edit_user_params)
+#       render json: @user, status: :ok
+#     else
+#       render json: { errors: @user.errors.full_messages },
+#              status: :unprocessable_entity       
+#     end
+# end 
+
+#   private
+
+#   # DELETE /users/:id
+#   def destroy
+#     @user = User.find(find_user[:id])
+#     if @user.destroy
+#       render json: { message: "User has been destroyed", user: @user }, status: :ok
+#     else
+#       render json: { message: "User cannot be destroy" },
+#              status: :unprocessable_entity
+#     end
+#   end
 
   private
 
@@ -132,13 +137,9 @@ end
     params.require(:user).permit(:email)
   end
 
-<<<<<<< HEAD
-end
-=======
   def edit_user_params
     params.require(:user).permit(
       :name, :email, :password, :currentPassword
     )
   end
->>>>>>> refs/remotes/origin/main
 
