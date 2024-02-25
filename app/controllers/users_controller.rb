@@ -72,7 +72,7 @@ class UsersController < ApplicationController
       )
         render json: { errors: @user.errors.full_messages },
                status: :unprocessable_entity
-      
+      else
         render json: @user, status: :ok
         
       end     
