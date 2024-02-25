@@ -59,7 +59,7 @@ class UsersController < ApplicationController
   # PUT /users/:id
   def update
     @user = User.find(params[:id])
-    if @user.update(edit_user_params)
+    if @user.update(edit_user_params.compact)
       render json: @user, status: :ok
     else
       render json: { errors: @user.errors.full_messages },
@@ -108,6 +108,6 @@ class UsersController < ApplicationController
   end
 
   def edit_user_params
-    params.require(:user).permit(:name, :email, :password).reject { |_, v| v.to_s.strip.empty? }
+    params.require(:user).permit(:name, :email, :password)
   end
 end
