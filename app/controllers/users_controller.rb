@@ -57,15 +57,29 @@ class UsersController < ApplicationController
   end
 
   # PUT /users/:id
+
   def update
-    @user = User.find(params[:id])
-    unless @user.update(edit_user_params)
-      render json: @user, status: :ok
-    else
+    @user = User.find(find_user[:id])
+    unless @user.update(user_params)
       render json: { errors: @user.errors.full_messages },
-             status: :unprocessable_entity       
+             status: :unprocessable_entity
     end
-  end  
+    render json: @user, status: :ok
+  end
+
+
+
+  #   def update
+#     @user = User.find(params[:id])
+#     unless @user.update(edit_user_params)
+#       render json: @user, status: :ok
+#     else
+#       render json: { errors: @user.errors.full_messages },
+#              status: :unprocessable_entity       
+#     end
+#   end  
+# end 
+
 
   private
 
@@ -111,3 +125,4 @@ class UsersController < ApplicationController
     params.require(:user).permit(:name, :email, :password)
   end
 end
+
