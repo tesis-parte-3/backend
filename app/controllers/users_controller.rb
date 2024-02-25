@@ -58,25 +58,16 @@ class UsersController < ApplicationController
 
   # PUT /users/:id
   def update
-   
-    @user = User.find(find_user[:id ])
-    # if @user && !@user.authenticate(edit_user_params[:currentPassword])
-    #   render json: { message: "no password matches" }, status: :forbidden
-    # else   
-           
-    #end
-
-    if @user.update(
-      name: edit_user_params[:name],
-      email: edit_user_params[:email],
-      password: edit_user_params[:password]
-    )
+    @user = User.find(params[:id])
+    if @user.update(edit_user_params)
       render json: @user, status: :ok
     else
       render json: { errors: @user.errors.full_messages },
              status: :unprocessable_entity       
     end
   end
+
+  private
 
   # DELETE /users/:id
   def destroy
@@ -117,8 +108,6 @@ class UsersController < ApplicationController
   end
 
   def edit_user_params
-    params.require(:user).permit(
-      :name, :email, :password, :currentPassword
-    )
+    params.require(:user).permit(:name, :email, :password).reject { |_, v| v.blank? }
   end
 end
