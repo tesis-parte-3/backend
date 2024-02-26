@@ -70,12 +70,16 @@ class UsersController < ApplicationController
         password: edit_user_params[:password]
 
       )
+        
+      else
         render json: { errors: @user.errors.full_messages },
                status: :unprocessable_entity
-      else
-        render json: @user, status: :ok
+        
         
       end     
+
+    
+      render json: @user, status: :ok
     end
   
 
