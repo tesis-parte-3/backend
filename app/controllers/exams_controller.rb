@@ -19,6 +19,8 @@ class ExamsController < ApplicationController
 
   def create
     @exam = Exam.new(exam_params)
+    # convert form data to json
+    @exam.answers = convert_form_data_to_json(@exam.answers) if @exam.answers.present?
 
     if @exam.save
       render json: @exam, status: :created
@@ -53,8 +55,14 @@ class ExamsController < ApplicationController
 
   private
 
+  def convert_form_data_to_json(data)
+    data.map do |data_hash|
+      data_hash.transform_values!(&:to_s)
+    end
+  end
+
   def exam_params
-    params.require(:exam).permit(:question, :options, :answer, :level, :picture)
+    params.require(:exam).permit(:question, :options, :level, :picture, :correct_answer, :answers)
   end
 end
 
