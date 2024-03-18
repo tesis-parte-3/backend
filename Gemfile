@@ -52,3 +52,7 @@ end
 gem "byebug", "~> 11.1"
 
 gem "active_model_serializers", "~> 0.10.14"
+
+gem "carrierwave", "~> 3.0"
+
+gem "annotate", "~> 3.2"
