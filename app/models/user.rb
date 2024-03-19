@@ -21,7 +21,7 @@ class User < ApplicationRecord
     validates :dni, presence: true, uniqueness: true
     validates :name, presence: true
     validates :password,
-              length: { minimum:8 }
+              length: { minimum: 6 }
 
     def generate_password_token
         self.reset_password_token = SecureRandom.hex(3).upcase!
