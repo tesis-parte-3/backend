@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_03_18_203105) do
+ActiveRecord::Schema[7.0].define(version: 2024_03_19_005806) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -33,6 +33,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_03_18_203105) do
     t.datetime "updated_at", null: false
     t.string "reset_password_token", default: "F5EE22"
     t.datetime "reset_password_sent_at", default: "2024-03-17 01:53:18"
+    t.string "avatar"
   end
 
 end

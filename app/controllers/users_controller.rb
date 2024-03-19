@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_action :find_user, except: %i[create index]
+  before_action :authenticate_request, except: %i[create forget_password recovery_password]
   # before_action :validates_passwords, only: :recovery_password
 
   # GET /users
@@ -15,6 +16,15 @@ class UsersController < ApplicationController
       render json: { message: "Email has been sent" }, status: :ok
     else
       render json: { message: "Email not found" }, status: :not_found
+    end
+  end
+
+  def set_avatar
+    @current_user.avatar = avatar_user_params[:avatar]
+    if @current_user.save
+      render json: { message: "Avatar has been updated", user: @current_user }, status: :ok
+    else
+      render json: { errors: @current_user.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
@@ -68,59 +78,15 @@ class UsersController < ApplicationController
         name: edit_user_params[:name],
         email: edit_user_params[:email],
         password: edit_user_params[:password]
-
       )
-        
       else
         render json: { errors: @user.errors.full_messages },
                status: :unprocessable_entity
-        
-        
       end     
-
-    
       render json: @user, status: :ok
     end
-  
-
-
-
-
-
-
-
-
-
-#     @user = User.find(params[:id])
-   
-# 	if  @user.update(edit_user_params)
-#       render json: @user, status: :ok
-#     else
-#       render json: { errors: @user.errors.full_messages },
-#              status: :unprocessable_entity       
-#     end
-# end 
-
-#   private
-
-#   # DELETE /users/:id
-#   def destroy
-#     @user = User.find(find_user[:id])
-#     if @user.destroy
-#       render json: { message: "User has been destroyed", user: @user }, status: :ok
-#     else
-#       render json: { message: "User cannot be destroy" },
-#              status: :unprocessable_entity
-#     end
-#   end
 
   private
-
-  # def validates_passwords
-  #   unless (recovery_password_params[:password] == recovery_password_params[:password_confirmation] && recovery_password_params[:password].to_s.length >= 8)
-  #     render json: { message: "passwords do not match" }, status: :forbidden
-  #   end
-  # end
 
   def find_user
     params.permit(:id)
@@ -147,4 +113,7 @@ class UsersController < ApplicationController
     )
   end
 
+  def avatar_user_params
+    params.require(:user).permit(:avatar)
+  end
 end

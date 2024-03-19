@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :users do
     post 'forget_password', on: :collection
     post 'recovery_password', on: :collection
+    put 'set_avatar', on: :collection
   end
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

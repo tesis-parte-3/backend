@@ -3,6 +3,7 @@
 # Table name: users
 #
 #  id                     :bigint           not null, primary key
+#  avatar                 :string
 #  dni                    :string
 #  email                  :string
 #  name                   :string
@@ -14,6 +15,7 @@
 #
 class User < ApplicationRecord
     has_secure_password
+    mount_uploader :avatar, AvatarUploader
 
     validates :email, presence: true, uniqueness: true
     validates :dni, presence: true, uniqueness: true

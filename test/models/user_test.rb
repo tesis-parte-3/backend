@@ -3,6 +3,7 @@
 # Table name: users
 #
 #  id                     :bigint           not null, primary key
+#  avatar                 :string
 #  dni                    :string
 #  email                  :string
 #  name                   :string
