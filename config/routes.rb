@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources :exams
   resources :users do
+    get 'current', on: :collection
     post 'forget_password', on: :collection
     post 'recovery_password', on: :collection
     put 'set_avatar', on: :collection

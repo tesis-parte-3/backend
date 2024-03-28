@@ -9,6 +9,10 @@ class UsersController < ApplicationController
     render json: @users, status: :ok
   end
 
+  def current
+    render json: @current_user, status: :ok
+  end
+
   def forget_password
     @user = User.find_by(email: forget_password_params[:email])
     if @user
