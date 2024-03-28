@@ -28,6 +28,20 @@ class UsersController < ApplicationController
     end
   end
 
+  def approve_exam
+    @user.approve_exam
+    if @user.save
+      render json: { message: "Exam has been approved", user: @user }, status: :ok
+    end
+  end 
+
+  def reprove_exam
+    @user.reprove_exam
+    if @user.save
+      render json: { message: "Exam has been reproved", user: @user }, status: :ok
+    end
+  end
+
   def recovery_password
     @user = User.find_by(id: params[:user_id])
 

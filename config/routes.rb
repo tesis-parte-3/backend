@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     post 'forget_password', on: :collection
     post 'recovery_password', on: :collection
     put 'set_avatar', on: :collection
+    put 'approve_exam', on: :collection
+    put 'reprove_exam', on: :collection
   end
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

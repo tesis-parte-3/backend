@@ -29,9 +29,7 @@ class ExamsController < ApplicationController
     # convert form data to json
     @exam.answers = answers
 
-    if @exam.answers == [] || @exam.answers == nil
-      render json: { message: "Answers cannot be empty" }, status: :unprocessable_entity
-    elsif @exam.save
+    if @exam.save
       render json: @exam, status: :created
     else
       render json: { errors: @exam.errors.full_messages }, status: :unprocessable_entity
