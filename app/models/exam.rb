@@ -23,6 +23,5 @@ class Exam < ApplicationRecord
         quizzes = specific_level_questions + general_questions
 
         quizzes.shuffle
-        
     end
 end
