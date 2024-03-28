@@ -33,17 +33,13 @@ class UsersController < ApplicationController
   end
 
   def approve_exam
-    @user.approve_exam
-    if @user.save
-      render json: { message: "Exam has been approved", user: @user }, status: :ok
-    end
+    @current_user.approve_exam
+    render json: { message: "Exam has been approved", user: @user }, status: :ok
   end 
 
   def reprove_exam
-    @user.reprove_exam
-    if @user.save
-      render json: { message: "Exam has been reproved", user: @user }, status: :ok
-    end
+    @current_user.reprove_exam
+    render json: { message: "Exam has been reproved", user: @user }, status: :ok
   end
 
   def recovery_password
