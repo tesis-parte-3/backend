@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
   # GET /users
   def index
-    @users = User.all
+    @users = User.where("created_at >= ?", Time.now - 24.hours)
     render json: @users, status: :ok
   end
 
