@@ -18,9 +18,16 @@ class ExamsController < ApplicationController
   # POST /exams
 
   def create
-    @exam = Exam.new(exam_params)
+    answers = []
+
+    answers << exam_params[:first_answer] if exam_params[:first_answer].present?
+    answers << exam_params[:second_answer] if exam_params[:second_answer].present?
+    answers << exam_params[:third_answer] if exam_params[:third_answer].present?
+    answers << exam_params[:fourth_answer] if exam_params[:fourth_answer].present?
+
+    @exam = Exam.new(exam_params.except(:first_answer, :second_answer, :third_answer, :fourth_answer))
     # convert form data to json
-    @exam.answers = convert_form_data_to_json(@exam.answers) if @exam.answers.present?
+    @exam.answers = answers
 
     if @exam.save
       render json: @exam, status: :created
@@ -55,14 +62,8 @@ class ExamsController < ApplicationController
 
   private
 
-  def convert_form_data_to_json(data)
-    data.map do |data_hash|
-      data_hash.transform_values!(&:to_s)
-    end
-  end
-
   def exam_params
-    params.require(:exam).permit(:question, :options, :level, :picture, :correct_answer, :answers, :picture)
+    params.require(:exam).permit(:question, :options, :level, :picture, :correct_answer, :picture, :first_answer, :second_answer, :third_answer, :fourth_answer)
   end
 end
 
