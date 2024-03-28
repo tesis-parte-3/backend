@@ -31,9 +31,7 @@ class ExamsController < ApplicationController
 
     if @exam.answers == [] || @exam.answers == nil
       render json: { message: "Answers cannot be empty" }, status: :unprocessable_entity
-    end
-
-    if @exam.save
+    elsif @exam.save
       render json: @exam, status: :created
     else
       render json: { errors: @exam.errors.full_messages }, status: :unprocessable_entity
