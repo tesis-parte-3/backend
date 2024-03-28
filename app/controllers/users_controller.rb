@@ -33,15 +33,11 @@ class UsersController < ApplicationController
   end
 
   def approve_exam
-    @current_user.approve_exam
-    @current_user.approved_exams += 1
-    render json: { message: "Exam has been approved", user: @current_user }, status: :ok
+    render json: @current_user.approve_exam, status: :ok
   end 
 
   def reprove_exam
-    @current_user.reprove_exam
-    @current_user.reproved_exams += 1
-    render json: { message: "Exam has been reproved", user: @current_user }, status: :ok
+    render json: @current_user.reprove_exam, status: :ok
   end
 
   def recovery_password

@@ -34,11 +34,21 @@ class User < ApplicationRecord
     end         
 
     def approve_exam
-        self.approved_exams += 1
+        self.approved_exams = approved_exams + 1
+        if self.save
+            return { message: "ok", user: User.find(self.id) }
+        else
+            return { message: "error", user: User.find(self.id) }
+        end
     end
 
     def reprove_exam
-        self.reproved_exams += 1
+        self.reproved_exams = reproved_exams + 1
+        if self.save
+            return { message: "ok", user: User.find(self.id) }
+        else
+            return { message: "error", user: User.find(self.id) }
+        end
     end
 
     def token_is_valid?(token = '')
