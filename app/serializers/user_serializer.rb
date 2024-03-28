@@ -16,5 +16,9 @@
 #  updated_at             :datetime         not null
 #
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :name, :email, :dni, :approved_exams, :reproved_exams, :created_at, :updated_at
+  attributes :id, :name, :email, :dni, :approved_exams, :reproved_exams, :users_quantity, :created_at, :updated_at
+
+  def users_quantity
+    User.count
+  end
 end
