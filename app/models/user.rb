@@ -19,6 +19,8 @@ class User < ApplicationRecord
     has_secure_password
     mount_uploader :avatar, AvatarUploader
 
+    after_create :set_stats
+
     validates :email, presence: true, uniqueness: true
     validates :dni, presence: true, uniqueness: true
     validates :name, presence: true
@@ -41,5 +43,12 @@ class User < ApplicationRecord
 
     def token_is_valid?(token = '')
         token == self.reset_password_token
+    end
+
+    private
+
+    def set_stats
+        self.approved_exams = 0
+        self.reproved_exams = 0
     end
 end
