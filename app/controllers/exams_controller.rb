@@ -1,6 +1,13 @@
 class ExamsController < ApplicationController
 
 
+  #GET /stats
+
+  def stats
+    exam_quantity = Exam.count
+    render json: { quantity: exam_quantity }, status: :ok
+  end
+
   # GET /exams
 
   def index

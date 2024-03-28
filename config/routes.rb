@@ -2,7 +2,14 @@ Rails.application.routes.draw do
   post '/login', to: 'authentication#login'
   get '/current', to: 'authentication#current'
 
-  resources :exams
+  resources :exams do
+    get "stats", on: :collection
+
+  end 
+
+
+
+
   resources :users do
     get 'current', on: :collection
     post 'forget_password', on: :collection
