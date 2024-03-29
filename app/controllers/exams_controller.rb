@@ -15,7 +15,10 @@ class ExamsController < ApplicationController
       @exams = Exam.all
     else
     @exams = Exam.get_quizzes(params[:level])
+    
+    end 
     render json: @exams, status: :ok
+    
   end
 
   # GET /exams/:id
