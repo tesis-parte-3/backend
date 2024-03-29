@@ -56,3 +56,5 @@ gem "active_model_serializers", "~> 0.10.14"
 gem "carrierwave", "~> 3.0"
 
 gem "annotate", "~> 3.2"
+
+gem "resend", "~> 0.11.0"
