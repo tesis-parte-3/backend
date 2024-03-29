@@ -6,10 +6,6 @@ Rails.application.routes.draw do
     get "stats", on: :collection
 
   end 
-
-
-
-
   resources :users do
     get 'current', on: :collection
     post 'forget_password', on: :collection
