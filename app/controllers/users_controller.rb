@@ -18,9 +18,9 @@ class UsersController < ApplicationController
     @user = User.find(find_user[:id])
     
     if @user.destroy
-      render json: { message: "User has been deleted" }, status: :ok
+      render json: { message: "User has been deleted", user: @user }, status: :ok
     else
-      render json: { errors: @user.errors.full_messages },
+      render json: { errors: @user.errors.full_messages, user: @user },
       status: :unprocessable_entity
     end 
   end
