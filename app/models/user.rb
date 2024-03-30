@@ -16,6 +16,8 @@
 #  updated_at             :datetime         not null
 #
 class User < ApplicationRecord
+    require "resend"
+
     has_secure_password
     mount_uploader :avatar, AvatarUploader
 
