@@ -57,7 +57,14 @@ class UsersController < ApplicationController
   end
 
   def recovery_password
-    @user = User.find_by(user_to_be_recovery_params.except(:password, :password_confirmation))
+    @payload = {
+      email: forget_password_params[:email] || '',
+      token: forget_password_params[:token] || '',
+      password: recovery_password_params[:password] || '',
+      password_confirmation: recovery_password_params[:password] || ''
+    }
+
+    @user = User.find_by(@payload.except(:password, :password_confirmation))
 
     if @user.nil?
       render json: { message: "User not found" }, status: :not_found
