@@ -27,7 +27,7 @@ class User < ApplicationRecord
     validates :dni, presence: true, uniqueness: true, format: {
         with: /\A[VEJPG]-\d{1,11}\z/,
         message: 'Debe incluir (V J E G P)'
-      },
+      }
     validates :name, presence: true
     # validates :password,
     #           length: { minimum: 6 }
