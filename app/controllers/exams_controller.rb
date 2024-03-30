@@ -39,7 +39,7 @@ class ExamsController < ApplicationController
     answers << exam_params[:second_answer] if exam_params[:second_answer].present?
     answers << exam_params[:third_answer] if exam_params[:third_answer].present?
     answers << exam_params[:fourth_answer] if exam_params[:fourth_answer].present?
-
+ 
     @exam = Exam.new(exam_params.except(:first_answer, :second_answer, :third_answer, :fourth_answer))
     # convert form data to json
     @exam.answers = answers

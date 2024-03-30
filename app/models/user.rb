@@ -20,6 +20,7 @@ class User < ApplicationRecord
     mount_uploader :avatar, AvatarUploader
 
     after_create :set_stats
+    after_create :welcome_email
 
     validates :email, presence: true, uniqueness: true
     validates :dni, presence: true, uniqueness: true
@@ -56,6 +57,20 @@ class User < ApplicationRecord
     end
 
     private
+
+    def welcome_email
+        Resend.api_key = ENV["email_token"]
+        
+        params = {
+          "from": "Acme <onboarding@resend.dev>",
+          "to": [self.email],
+          "subject": "Bienvenido a QuizDrive!",
+          "html": "<strong><center>Bienvenido a QuizDrive!</center></strong>"
+        }
+        
+        sent = Resend::Emails.send(params)
+        puts sent
+    end
 
     def set_stats
         self.approved_exams = 0
