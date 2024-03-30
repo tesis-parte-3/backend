@@ -56,22 +56,23 @@ class User < ApplicationRecord
         token == self.reset_password_token
     end
 
-    private
-
+    
     def welcome_email
         $resend.api_key = ENV["email_token"]
         
         params = {
-          "from": "Acme <onboarding@resend.dev>",
-          "to": [self.email],
-          "subject": "Bienvenido a QuizDrive!",
-          "html": "<strong><center>Bienvenido a QuizDrive!</center></strong>"
+            "from": "Acme <onboarding@resend.dev>",
+            "to": [self.email],
+            "subject": "Bienvenido a QuizDrive!",
+            "html": "<strong><center>Bienvenido a QuizDrive!</center></strong>"
         }
         
         sent = $resend::Emails.send(params)
         puts sent
     end
-
+    
+    private
+    
     def set_stats
         self.approved_exams = 0
         self.reproved_exams = 0
