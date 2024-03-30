@@ -31,6 +31,8 @@ class ExamsController < ApplicationController
   # POST /exams
 
   def create
+
+    
     answers = []
 
     answers << exam_params[:first_answer] if exam_params[:first_answer].present?
@@ -76,7 +78,7 @@ class ExamsController < ApplicationController
   private
 
   def exam_params
-    params.require(:exam).permit(:question, :options, :level, :picture, :correct_answer, :picture, :first_answer, :second_answer, :third_answer, :fourth_answer)
+    params.require(:exam).permit(:question, :answers ,:options, :level, :picture, :correct_answer, :picture, :first_answer, :second_answer, :third_answer, :fourth_answer)
   end
 end
 
