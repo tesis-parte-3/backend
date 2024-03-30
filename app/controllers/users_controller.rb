@@ -57,16 +57,9 @@ class UsersController < ApplicationController
   end
 
   def recovery_password
-    @payload = {
-      email: forget_password_params[:email] || '',
-      reset_password_token: forget_password_params[:token] || '',
-      password: recovery_password_params[:password] || '',
-      password_confirmation: recovery_password_params[:password] || ''
-    }
+    @user = User.find_by(user_to_be_recovery_params.except(:token, :password, :password_confirmation))
 
-    @user = User.find_by(@payload.except(:password, :password_confirmation))
-
-    if @user.nil?
+    if @user.nil? || @user.reset_password_token != user_to_be_recovery_params[:token]
       render json: { message: "User not found" }, status: :not_found
     elsif @user.update(user_to_be_recovery_params)
       render json: { message: "Password has been updated" }, status: :ok
