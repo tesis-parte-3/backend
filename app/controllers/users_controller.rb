@@ -59,7 +59,7 @@ class UsersController < ApplicationController
   def recovery_password
     @payload = {
       email: forget_password_params[:email] || '',
-      token: forget_password_params[:token] || '',
+      reset_password_token: forget_password_params[:token] || '',
       password: recovery_password_params[:password] || '',
       password_confirmation: recovery_password_params[:password] || ''
     }
