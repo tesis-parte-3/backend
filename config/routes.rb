@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   end 
   resources :users do
     get 'current', on: :collection
-    post 'email_recovery', on: :collection
+    get 'email_recovery', on: :collection
     post 'recovery_password', on: :collection
     put 'set_avatar', on: :collection
     post 'approve_exam', on: :collection
