@@ -3,7 +3,7 @@ class AuthenticationController < ApplicationController
 
 	# POST /login
 	def login
-		@user = User.find_by(email: params[:email])
+		@user = User.find_by(email: params[:email].downcase)
 		if @user&.authenticate(params[:password])
 				token = JsonWebToken.encode(user_id: @user.id)
 				time = Time.now + 7.days.to_i
