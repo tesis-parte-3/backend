@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :find_user, except: %i[create index]
-  before_action :authorize_request, except: %i[create forget_password recovery_password email_recovery]
+  before_action :authorize_request, except: %i[email_recovery create forget_password recovery_password]
   # before_action :validates_passwords, only: :recovery_password
 
   # GET /users
