@@ -21,9 +21,13 @@ class User < ApplicationRecord
 
     after_create :set_stats
     after_create :welcome_email
+    before_save :normalize
 
     validates :email, presence: true, uniqueness: true
-    validates :dni, presence: true, uniqueness: true
+    validates :dni, presence: true, uniqueness: true, format: {
+        with: /\A[VEJPG]-\d{1,11}\z/,
+        message: 'Debe incluir (V J E G P)'
+      },
     validates :name, presence: true
     # validates :password,
     #           length: { minimum: 6 }
@@ -123,6 +127,10 @@ class User < ApplicationRecord
     end
     
     private
+
+    def normalize
+        self.email = self.email.downcase
+    end
 
     def set_stats
         self.approved_exams = 0
