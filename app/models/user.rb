@@ -16,8 +16,6 @@
 #  updated_at             :datetime         not null
 #
 class User < ApplicationRecord
-    require "resend"
-
     has_secure_password
     mount_uploader :avatar, AvatarUploader
 
@@ -61,6 +59,8 @@ class User < ApplicationRecord
     private
 
     def welcome_email
+        require "resend"
+        
         Resend.api_key = ENV["email_token"]
         
         params = {
