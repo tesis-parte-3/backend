@@ -61,7 +61,7 @@ class User < ApplicationRecord
         $resend.api_key = ENV["email_token"]
         
         params = {
-            "from": "Acme <onboarding@resend.dev>",
+            "from": "#{ENV["company"]} <#{ENV["company_email"]}>",
             "to": [self.email],
             "subject": "Bienvenido a QuizDrive!",
             "html": "<strong><center>Bienvenido a QuizDrive!</center></strong>"
@@ -72,7 +72,7 @@ class User < ApplicationRecord
     end
     
     private
-    
+
     def set_stats
         self.approved_exams = 0
         self.reproved_exams = 0
