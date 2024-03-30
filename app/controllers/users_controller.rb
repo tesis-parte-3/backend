@@ -62,6 +62,7 @@ class UsersController < ApplicationController
     if @user.nil? || @user.reset_password_token != user_to_be_recovery_params[:token]
       render json: { message: "User not found" }, status: :not_found
     elsif @user.update(user_to_be_recovery_params.except(:token))
+      @user.successfully_reset_password
       render json: { message: "Password has been updated" }, status: :ok
     else
       render json: { message: "Password can't be updated" }, status: :unprocessable_entity
