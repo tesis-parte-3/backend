@@ -59,9 +59,7 @@ class User < ApplicationRecord
     private
 
     def welcome_email
-        require "resend"
-        
-        Resend.api_key = ENV["email_token"]
+        $resend.api_key = ENV["email_token"]
         
         params = {
           "from": "Acme <onboarding@resend.dev>",
@@ -70,7 +68,7 @@ class User < ApplicationRecord
           "html": "<strong><center>Bienvenido a QuizDrive!</center></strong>"
         }
         
-        sent = Resend::Emails.send(params)
+        sent = $resend::Emails.send(params)
         puts sent
     end
 
