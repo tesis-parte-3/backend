@@ -56,6 +56,50 @@ class User < ApplicationRecord
         token == self.reset_password_token
     end
 
+    def successfully_reset_password
+        self.reset_password_token = SecureRandom.hex(3).upcase!
+        self.reset_password_sent_at = Time.now.utc
+        self.save
+
+        $resend.api_key = ENV["email_token"]
+
+        params = {
+            "from": "#{ENV["company"]} <#{ENV["company_email"]}>",
+            "to": [self.email],
+            "subject": "Contraseña restablecida",
+            "html": "
+                <div style='text-align: center; background-color: #f2f2f2; padding: 50px;'>
+                    <span style='font-size: 50px;'>🎊</span>
+                    <h1 style='font-size: 30px; color: #333;'>Contraseña restablecida</h1>
+                    <p style='font-size: 20px; color: #666;'>Tu contraseña ha sido restablecida con éxito</p>
+                </div>
+            "
+        }
+
+        sent = $resend::Emails.send(params)
+        puts sent
+    end
+
+    def send_password_reset
+        $resend.api_key = ENV["email_token"]
+
+        params = {
+            "from": "#{ENV["company"]} <#{ENV["company_email"]}>",
+            "to": [self.email],
+            "subject": "Recuperación de contraseña",
+            "html": "
+                <div style='text-align: center; background-color: #f2f2f2; padding: 50px;'>
+                    <span style='font-size: 50px;'>🔑</span>
+                    <h1 style='font-size: 30px; color: #333;'>Recuperación de contraseña</h1>
+                    <p style='font-size: 20px; color: #666;'>Hemos recibido una solicitud para restablecer tu contraseña</p>
+                    <p style='font-size: 20px; color: #fff; padding: 10px; background-color: #008DDA; margin-top: 20px; border-radius: 5px; letter-spacing: 6px'>#{self.reset_password_token}</p>
+                </div>
+            "
+        }
+
+        sent = $resend::Emails.send(params)
+        puts sent
+    end
     
     def welcome_email
         $resend.api_key = ENV["email_token"]
@@ -64,7 +108,14 @@ class User < ApplicationRecord
             "from": "#{ENV["company"]} <#{ENV["company_email"]}>",
             "to": [self.email],
             "subject": "Bienvenido a QuizDrive!",
-            "html": "<strong><center>Bienvenido a QuizDrive!</center></strong>"
+            "html": "
+                <div style='text-align: center; background-color: #f2f2f2; padding: 50px;'>
+                    <span style='font-size: 50px;'>👋</span>
+                    <h1 style='font-size: 30px; color: #333;'>Te damos la bienvenida a QuizDrive!</h1>
+                    <p style='font-size: 20px; color: #666;'>Estamos muy contentos de que estés aquí</p>
+                    <a style='font-size: 20px; color: #fff; padding: 10px; background-color: #008DDA; margin-top: 20px; border-radius: 5px' href='https://ismoxpage.online/login'>Comienza a aprender</a>
+                </div>
+            "
         }
         
         sent = $resend::Emails.send(params)

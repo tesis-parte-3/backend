@@ -29,10 +29,10 @@ class UsersController < ApplicationController
     render json: @current_user, status: :ok
   end
 
-  def forget_password
-    @user = User.find_by(email: forget_password_params[:email])
+  def email_recovery
+    @user = User.find_by(email: params[:email])
     if @user
-      # UserMailer.with(user: @user).reset_password_email.deliver_now # REPARAR
+      @user.send_password_reset
       render json: { message: "Email has been sent" }, status: :ok
     else
       render json: { message: "Email not found" }, status: :not_found
@@ -57,21 +57,14 @@ class UsersController < ApplicationController
   end
 
   def recovery_password
-    @user = User.find_by(id: params[:user_id])
+    @user = User.find_by(user_to_be_recovery_params.except(:password, :password_confirmation))
 
-    if @user && @user.reset_password_token == params[:token]
-      # require byebug
-
-      # byebug()
-      # render json: { message: "Token is valid", password_attributes: recovery_password }, status: :ok
-      if @user.update(password: recovery_password[:password])
-        @user.generate_password_token
-        render json: { message: "Password has been updated", user: @user }, status: :ok
-      else
-        render json: { errors: "Invalid password" }, status: :unprocessable_entity
-      end
+    if @user.nil?
+      render json: { message: "User not found" }, status: :not_found
+    elsif @user.update(user_to_be_recovery_params)
+      render json: { message: "Password has been updated" }, status: :ok
     else
-      render json: { message: "Invalid token" }, status: :forbidden
+      render json: { message: "Password can't be updated" }, status: :unprocessable_entity
     end
   end
 
@@ -124,6 +117,10 @@ class UsersController < ApplicationController
     params.permit(
       :name, :email, :dni, :password, :password_confirmation
     )
+  end
+
+  def user_to_be_recovery_params
+    params.require(:user).permit(:email, :token, :password, :password_confirmation)
   end
 
   def recovery_password_params
