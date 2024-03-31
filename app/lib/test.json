@@ -1,0 +1,11 @@
+{
+  "exam": [
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo amarillo y la palabra 'PELIGRO' en un vehículo de grado 5?",
+      "first_answer": "Acelerar.",
+      "second_answer": "Estar alerta a posibles peligros en la carretera.",
+      "correct_answer": "Estar alerta a posibles peligros en la carretera."
+    }
+  ]
+}

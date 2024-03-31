@@ -1,0 +1,455 @@
+{
+    "exam":[
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la edad mínima requerida para obtener una licencia de conducir de grado 2 para motocicletas en Venezuela?",
+        "first_answer":"16 años.",
+        "second_answer":"18 años.",
+        "third_answer":"21 años.",
+        "fourth_answer":"25 años.",
+        "correct_answer":"18 años."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué indica una luz roja intermitente en un semáforo para motociclistas?",
+        "first_answer":"Continuar con precaución.",
+        "second_answer":"Detenerse completamente.",
+        "third_answer":" Acelerar para cruzar rápidamente.",
+        "fourth_answer":"Reducir la velocidad y mirar a ambos lados.",
+        "correct_answer":"Detenerse completamente."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es el procedimiento correcto al acercarse a una zona de obras en la carretera en una motocicleta?",
+        "first_answer":"Aumentar la velocidad para pasar rápidamente.",
+        "second_answer":"Ignorar las señales y continuar con la velocidad actual.",
+        "third_answer":"Acelerar para adelantar a los vehículos en la zona de obras.",
+        "fourth_answer":"Reducir la velocidad y estar atento a las señales de los trabajadores.",
+        "correct_answer":"Reducir la velocidad y estar atento a las señales de los trabajadores."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué debe hacer un motociclista al ver una señal de tránsito con una flecha hacia abajo y la palabra "UNICAMENTE"?",
+        "first_answer":"Continuar en la dirección actual.",
+        "second_answer":"Seguir recto.",
+        "third_answer":"Girar a la derecha obligatoriamente.",
+        "fourth_answer":"Girar a la izquierda obligatoriamente.",
+        "correct_answer":"Girar a la derecha obligatoriamente."
+      },
+      {
+        "level":"¿Cuál es la documentación obligatoria que un motociclista debe llevar consigo al conducir?",
+        "question":"pregunta",
+        "first_answer":"Licencia de conducir y seguro del vehículo.",
+        "second_answer":"Tarjeta de identificación y certificado de inspección técnica vehicular.",
+        "third_answer":"Licencia de conducir y tarjeta de identificación.",
+        "fourth_answer":"Tarjeta de identificación y factura de compra de la motocicleta.",
+        "correct_answer":"Licencia de conducir y tarjeta de identificación."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué indica una señal de tránsito con un círculo rojo y una línea a través de una bicicleta?",
+        "first_answer":"Prohibido el paso de bicicletas.",
+        "second_answer":"Zona de ciclistas.",
+        "third_answer":"Prohibido el paso de peatones.",
+        "fourth_answer":"Prohibido estacionar bicicletas.",
+        "correct_answer":"Prohibido el paso de bicicletas."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es el límite de alcohol en sangre permitido para motociclistas en Venezuela?",
+        "first_answer":"0.02%.",
+        "second_answer":"0.05%.",
+        "third_answer":"0.08%.",
+        "fourth_answer":"0.10%.",
+        "correct_answer":"0.02%."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué debe hacer un motociclista al ver una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+        "first_answer":"Girar a la derecha obligatoriamente.",
+        "second_answer":"Continuar en la dirección actual.",
+        "third_answer":"Girar a la izquierda obligatoriamente.",
+        "fourth_answer":"¿Qué debe hacer un motociclista al ver una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+        "correct_answer":"Reducir la velocidad y estar preparado para girar a la izquierda."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es el procedimiento correcto al ver una luz amarilla en un semáforo para motociclistas?",
+        "first_answer":"Detenerse y prepararse para detenerse.",
+        "second_answer":"Acelerar para cruzar antes de que cambie a rojo.",
+        "third_answer":"Continuar a la misma velocidad.",
+        "fourth_answer":"Continuar a la misma velocidad.",
+        "correct_answer":"Detenerse y prepararse para detenerse."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué indica una señal de tránsito con un triángulo amarillo y una figura de una persona caminando?",
+        "first_answer":"Cruce de peatones.",
+        "second_answer":"Zona peatonal.",
+        "third_answer":"Advertencia de peatones.",
+        "fourth_answer":"Paso obligatorio para peatones.",
+        "correct_answer":"Advertencia de peatones."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia arriba?",
+        "first_answer":"Desvío obligatorio a la derecha.",
+        "second_answer":"Desvío obligatorio a la izquierda.",
+        "third_answer":"Prohibido adelantar.",
+        "fourth_answer":"Paso obligatorio.",
+        "correct_answer":"Paso obligatorio."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es el procedimiento correcto al acercarse a un cruce de ferrocarril en una motocicleta?",
+        "first_answer":"Detenerse antes del cruce y asegurarse de que no viene ningún tren.",
+        "second_answer":"Acelerar para cruzar rápidamente antes de que pase el tren.",
+        "third_answer":"Ignorar la señal y continuar con la velocidad actual.",
+        "fourth_answer":"Reducir la velocidad y mirar a ambos lados antes de cruzar.",
+        "correct_answer":"Detenerse antes del cruce y asegurarse de que no viene ningún tren."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la posición correcta de las manos en el manillar al conducir?",
+        "first_answer":"De espaldas.",
+        "second_answer":"Pies en el aire.",
+        "third_answer":"Manos en los extremos del manubrio.",
+        "fourth_answer":"Con las manos enel casco,",
+        "correct_answer":"Manos en los extremos del manubrio."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la función del freno delantero?",
+        "first_answer":"Acelerar.",
+        "second_answer":"Frenar.",
+        "third_answer":"Derrapar.",
+        "fourth_answer":"Caminar",
+        "correct_answer":"Frenar."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué se debe hacer al acercarse a un cruce?",
+        "first_answer":"Acelerar más.",
+        "second_answer":" Cambia de carril.",
+        "third_answer":"Detenerse.",
+        "fourth_answer":"Reducir la velocidad.",
+        "correct_answer":"Reducir la velocidad."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Por qué es importante utilizar equipo de protección al conducir?",
+        "first_answer":"Para proteger en caso de lluvias.",
+        "second_answer":"Porque lucen bien.",
+        "third_answer":"Ayuda a reducir lesiones en caso de accidentes.",
+        "fourth_answer":"Para combinar con la motocicleta.",
+        "correct_answer":"Ayuda a reducir lesiones en caso de accidentes."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué se debe hacer antes de iniciar un viaje?",
+        "first_answer":"Controles básicos de seguridad.",
+        "second_answer":"Comprar comestibles.",
+        "third_answer":"Usar el freno.",
+        "fourth_answer":"Apagar la motocicleta.",
+        "correct_answer":"Controles básicos de seguridad."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la velocidad máxima permitida en una zona residencial?",
+        "first_answer":"10 km/h.",
+        "second_answer":"80 km/h.",
+        "third_answer":"30 km/h.",
+        "fourth_answer":"120 km/h.",
+        "correct_answer":"30 km/h."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la velocidad máxima permitida en una autopista?",
+        "first_answer":"100-110 km/h.",
+        "second_answer":"40-90 km/h.",
+        "third_answer":"80-120 km/h.",
+        "fourth_answer":"10-50 km/h.",
+        "correct_answer":"80-120 km/h."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué distancia mínima se debe mantener al seguir a otro vehículo?",
+        "first_answer":"8 metros.",
+        "second_answer":"2 segundos detrás.",
+        "third_answer":"2 metros.",
+        "fourth_answer":"5 segundos detrás.",
+        "correct_answer":"2 segundos detrás."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es el procedimiento correcto al encontrarse con un peatón cruzando la calle en una zona peatonal?",
+        "first_answer":"Acelerar.",
+        "second_answer":"Hacer sonar bocina.",
+        "third_answer":"Cruzar.",
+        "fourth_answer":"Ceder el paso.",
+        "correct_answer":"Ceder el paso."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué documento no es necesario para conducir una motocicleta?",
+        "first_answer":"Licencia de conducir.",
+        "second_answer":"Seguro de responsabilidad civil",
+        "third_answer":"Constancia laboral.",
+        "fourth_answer":"Rgistro de vehículo.",
+        "correct_answer":"Constancia laboral."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la posición más segura en el carril para los conductores de motocicletas al circular en una autopista?",
+        "first_answer":"En la acera.",
+        "second_answer":"Carril de bicletas.",
+        "third_answer":"Carril izquierdo o central.",
+        "fourth_answer":"Carril derecho.",
+        "correct_answer":"Carril izquierdo o central."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué no deben hacer los conductores de motocicletas al circular en condiciones de lluvia?",
+        "first_answer":"Aumentar la distancia de seguimiento.",
+        "second_answer":"Reducir la velocidad.",
+        "third_answer":"Tener mucho cuidado al frenar y girar.",
+        "fourth_answer":"Derrapar.",
+        "correct_answer":"Derrapar."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué no deben hacer los conductores de motocicletas al encontrarse con vientos fuertes durante la conducción?",
+        "first_answer":"Mantener un agarre firme en el manillar.",
+        "second_answer":"Reducir la velocidad para mantener el control y la estabilidad.",
+        "third_answer":"Inclinarse hacia el lado de donde viene del viento.",
+        "fourth_answer":"Inclinarse ligeramente hacia el lado contrario del viento.",
+        "correct_answer":"5."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál no es la forma correcta de realizar un cambio de carril en una motocicleta?",
+        "first_answer":"No mirar los vehículos que se aproximan.",
+        "second_answer":"Realizar el cambio de carril de manera gradual.",
+        "third_answer":"Señalizar su intención con el intermitente.",
+        "fourth_answer":"Verificar los espejos retrovisores.",
+        "correct_answer":"5."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué deben hacer los conductores de motocicletas al aproximarse a un semáforo en rojo?",
+        "first_answer":"Detenerse en seco.",
+        "second_answer":"Detenerse lentamente.",
+        "third_answer":"Cambiar de carril.",
+        "fourth_answer":"Encender las luces intermitentes.",
+        "correct_answer":"Detenerse lentamente."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la importancia de usar el casco correctamente al conducir una motocicleta?",
+        "first_answer":"Proteger la cabeza y el cerebro en caso de accidente.",
+        "second_answer":"Combinar con el aspecto de la motocicleta.",
+        "third_answer":"Marcar la diferrencia.",
+        "fourth_answer":"Para hacer más fácil la conducción.",
+        "correct_answer":"Proteger la cabeza y el cerebro en caso de accidente."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué indica una luz de advertencia de presión de neumáticos en el panel de instrumentos de una motocicleta?",
+        "first_answer":"Surtir combustible.",
+        "second_answer":"Detegnagse",
+        "third_answer":"La presión de uno o varios neumáticos está por debajo del nivel recomendado.",
+        "fourth_answer":"La temperatura del motor.",
+        "correct_answer":"La presión de uno o varios neumáticos está por debajo del nivel recomendado."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la velocidad máxima permitida en una zona escolar durante el horario de entrada o salida de los estudiantes?",
+        "first_answer":"80 km/h.",
+        "second_answer":"40 km/h.",
+        "third_answer":"30 km/h.",
+        "fourth_answer":"15 km/h.",
+        "correct_answer":"30 km/h."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué es un casco integral?",
+        "first_answer":"Un casco que cubre toda la cabeza y el mentón.",
+        "second_answer":"Guantes de protección.",
+        "third_answer":"Un casco que solo cubre la parte superior de la cabeza.",
+        "fourth_answer":"Botas de seguridad.",
+        "correct_answer":"Un casco que cubre toda la cabeza y el mentón."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué es un casco abierto?",
+        "first_answer":"Un casco que solo cubre la parte superior de la cabeza.",
+        "second_answer":"Botas de seguridad.",
+        "third_answer":"Un casco que cubre toda la cabeza y el mentón.",
+        "fourth_answer":"Guantes de protección.",
+        "correct_answer":"Un casco que solo cubre la parte superior de la cabeza."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué indica una luz de advertencia de nivel bajo de combustible en el panel de instrumentos de una motocicleta?",
+        "first_answer":"Bajo rendimieto de la batería.",
+        "second_answer":"Deternese.",
+        "third_answer":"Cambiar el aceite del motor.",
+        "fourth_answer":"Debe llenar el tanque de combustible.",
+        "correct_answer":"Debe llenar el tanque de combustible."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué significa cuando una motocicleta emite un sonido metálico o chirridos al frenar?",
+        "first_answer":"Mal funcionamiento del embrague.",
+        "second_answer":"Problema con el sistema de frenos.",
+        "third_answer":"Bajo rendiemnto de la batería.",
+        "fourth_answer":"Cambie el aceite del motor.",
+        "correct_answer":"Problema con el sistema de frenos."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál no es una causa de accidentes de motocicleta en intersecciones o cruces?",
+        "first_answer":"Ignorar las señales de tráfico.",
+        "second_answer":"No usar equipo de protección.",
+        "third_answer":"Infracción de las normas de tránsito.",
+        "fourth_answer":"Falta de visibilidad por parte de otros conductores.",
+        "correct_answer":"No usa equipo de protección."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la mejor forma de evitar el deslizamiento de las ruedas al frenar en superficies resbaladizas?",
+        "first_answer":"No frenar",
+        "second_answer":"Frenar bruscamente.",
+        "third_answer":"Aplicar freno suavemente.",
+        "fourth_answer":"Seguir acelerando.",
+        "correct_answer":"Aplicar freno suavemente."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué debe hacer un motociclista al ver una luz verde en un semáforo?",
+        "first_answer":"Cruce.",
+        "second_answer":"Detenerse.",
+        "third_answer":"Acelere.",
+        "fourth_answer":"Proceder con precaución.",
+        "correct_answer":"Proceder con precaución."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es el procedimiento correcto al ver una luz amarilla en un semáforo para motociclistas?",
+        "first_answer":"Acelerar.",
+        "second_answer":"Continuar con precaución.",
+        "third_answer":"Tener cuidado, zona escolar.",
+        "fourth_answer":"Detenerse.",
+        "correct_answer":"Continuar con precaución."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué no debe hacer un conductor de motocicleta al cruzar un paso de peatones?",
+        "first_answer":"Ignorar a los peatones.",
+        "second_answer":"Estar atentos a las señales de tráfico.",
+        "third_answer":"Asegurarse de tener una buena visibilidad.",
+        "fourth_answer":"Reducir la velocidad y ceder el paso a los peatones.",
+        "correct_answer":"5."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la posición correcta del cuerpo al tomar una curva en una motocicleta?",
+        "first_answer":"Inclinar el cuerpo hacia el interior de la curva.",
+        "second_answer":"Los ojos mirando hacia la salida de la curva.",
+        "third_answer":"Bajando la velocidad.",
+        "fourth_answer":"Todas las anteriores.",
+        "correct_answer":"Todas las anteriores."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué no deben hacer los conductores de motocicletas al atravesar un cruce de vías de tren?",
+        "first_answer":"Cruzar las vías con precaución.",
+        "second_answer":"Verificar ambos lados de las vías.",
+        "third_answer":"Detenerse completamente.",
+        "fourth_answer":"Encender las luces intermitentes.",
+        "correct_answer":"5."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la forma correcta de cargar un pasajero en una motocicleta?",
+        "first_answer":"Sin casco.",
+        "second_answer":"Recordarle que mantenga el equilibrio durante el viaje.",
+        "third_answer":"Mirando hacia la parte trasera del vehículo.",
+        "fourth_answer":"Sin sujetarse.",
+        "correct_answer":"Recordarle que mantenga el equilibrio durante el viaje."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la posición de los espejos laterales de una motocicleta para maximizar la visibilidad?",
+        "first_answer":"Que permita visualizar la carretera detrás.",
+        "second_answer":"Hacia los laterales del vehículo.",
+        "third_answer":"Que permita visualizar la carretera de frente.",
+        "fourth_answer":"Hacía arriba.",
+        "correct_answer":"Que permita visualizar la carretera detrás."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué no debe hacer un conductor de motocicleta al acercarse a una intersección sin semáforo ni señales de stop?",
+        "first_answer":"Proceder con precaución.",
+        "second_answer":"Estar preparado para ceder el paso a otros vehículos.",
+        "third_answer":"Reducir la velocidad.",
+        "fourth_answer":"Seguir hacía adelante.",
+        "correct_answer":"Seguir hacia adelante."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la forma correcta de realizar una parada de emergencia en una motocicleta?",
+        "first_answer":"Aplicar ambos frenos gradualmente.",
+        "second_answer":"Derrapar.",
+        "third_answer":"Cambiar hacia el carril derecho.",
+        "fourth_answer":"Rebasar todos los autos.",
+        "correct_answer":"Aplicar ambos frenos gradualmente."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué no se recomienda al adelantar a otro vehículo?",
+        "first_answer":"Tener suficiente espacio y visibilidad.",
+        "second_answer":"No revisar los retrovisores.",
+        "third_answer":"Realizar el adelantamiento con seguridad y rapidez.",
+        "fourth_answer":"Señalizar con anticipación.",
+        "correct_answer":"No revisar los retrovisores."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué deben hacer los conductores de motocicletas al circular en un carril exclusivo para autobuses?",
+        "first_answer":"Conducir con precaución.",
+        "second_answer":"Encender las luces intermitentes.",
+        "third_answer":"Evitar circular por el carril exclusivo para autobuses.",
+        "fourth_answer":"Conducir rápidamente.",
+        "correct_answer":"Evitar circular por el carril exclusivo para autobuses."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué debe hacer un conductor de motocicleta al cambiar de carril en una autopista o carretera?",
+        "first_answer":"Encender las luces intermitentes.",
+        "second_answer":"Verificar los retrovisores.",
+        "third_answer":"Hacer señas con las manos.",
+        "fourth_answer":"Rebasar todos los vehículos.",
+        "correct_answer":"Verificar los retrovisores."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Cuál es la mejor forma de evitar el sobrecalentamiento del motor en una motocicleta?",
+        "first_answer":"Evitar el funcionamiento prolongado a altas revoluciones.",
+        "second_answer":"Acelerar con más potencia.",
+        "third_answer":"Hacer cambio de luces.",
+        "fourth_answer":"Rebasar los vehículos.",
+        "correct_answer":"Evitar el funcionamiento prolongado a altas revoluciones."
+      },
+      {
+        "level":"grado2",
+        "question":"¿Qué debe hacer un conductor de motocicleta al detectar un problema mecánico durante un viaje?",
+        "first_answer":"Gritar por ayuda.",
+        "second_answer":"Surtir combustible.",
+        "third_answer":"Reducir la velocidad de manera segura.",
+        "fourth_answer":"Conducir mientras usa el teléfono celular.",
+        "correct_answer":"Reducir la velocidad de manera segura."
+      },
+  
+    ]
+  }

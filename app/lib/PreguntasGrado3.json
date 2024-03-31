@@ -1,0 +1,414 @@
+{
+  "exam": [
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la edad mínima para obtener una licencia de conducir de grado 3 en Venezuela?",
+      "first_answer": "18 años.",
+      "second_answer": "21 años.",
+      "correct_answer": "18 años."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una luz roja en un semáforo?",
+      "first_answer": "Detenerse.",
+      "second_answer": "Proceder con precaución.",
+      "correct_answer": "Detenerse."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una zona escolar?",
+      "first_answer": "30 km/h.",
+      "second_answer": "60 km/h.",
+      "correct_answer": "30 km/h."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo rojo y la palabra 'STOP'?",
+      "first_answer": "Detenerse completamente y ceder el paso.",
+      "second_answer": "Continuar con precaución.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz amarilla en un semáforo?",
+      "first_answer": "Prepararse para detenerse.",
+      "second_answer": "Acelerar para cruzar antes de que cambie a rojo.",
+      "correct_answer": "Prepararse para detenerse."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un círculo rojo y una línea a través de una bicicleta?",
+      "first_answer": "Prohibido estacionar bicicletas.",
+      "second_answer": "Prohibido el paso de bicicletas.",
+      "correct_answer": "Prohibido el paso de bicicletas."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a una rotonda?",
+      "first_answer": "Ceder el paso a los vehículos que ya están circulando en la rotonda.",
+      "second_answer": "Acelerar para entrar rápidamente a la rotonda.",
+      "correct_answer": "Ceder el paso a los vehículos que ya están circulando en la rotonda."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia abajo y la palabra 'UNICAMENTE'?",
+      "first_answer": "Zona de tráfico lento.",
+      "second_answer": "Carril exclusivo para cierto tipo de vehículos.",
+      "correct_answer": "Carril exclusivo para cierto tipo de vehículos."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al adelantar a un ciclista?",
+      "first_answer": "1 metro.",
+      "second_answer": "2 metros.",
+      "correct_answer": "1 metro."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia arriba y otra hacia abajo?",
+      "first_answer": "Desvío obligatorio a la derecha.",
+      "second_answer": "Zona de sentido único.",
+      "correct_answer": "Zona de sentido único."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el límite de alcohol en sangre permitido para conductores novatos en Venezuela?",
+      "first_answer": "0.02%.",
+      "second_answer": "0.08%.",
+      "correct_answer": "0.02%."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia la derecha y una línea diagonal?",
+      "first_answer": "Desvío obligatorio a la derecha.",
+      "second_answer": "Prohibido adelantar.",
+      "correct_answer": "Prohibido adelantar."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al estacionarse frente a una entrada de vehículos?",
+      "first_answer": "3 metros.",
+      "second_answer": "5 metros.",
+      "correct_answer": "5 metros."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una bicicleta dibujada?",
+      "first_answer": "Zona de ciclistas.",
+      "second_answer": "Cruce de bicicletas.",
+      "correct_answer": "Cruce de bicicletas."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia la derecha y una línea diagonal?",
+      "first_answer": "Desvío obligatorio a la derecha.",
+      "second_answer": "Prohibido adelantar.",
+      "correct_answer": "Prohibido adelantar."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una luz verde en un semáforo?",
+      "first_answer": "Detenerse.",
+      "second_answer": "Proceder con precaución.",
+      "correct_answer": "Proceder con precaución."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al adelantar a un autobús escolar detenido con luces intermitentes encendidas?",
+      "first_answer": "1 metro.",
+      "second_answer": "3 metros.",
+      "correct_answer": "3 metros."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un triángulo rojo y borde blanco?",
+      "first_answer": "Zona escolar.",
+      "second_answer": "Advertencia de peligro.",
+      "correct_answer": "Advertencia de peligro."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la documentación obligatoria que un conductor debe llevar consigo al conducir?",
+      "first_answer": "Licencia de conducir y seguro del vehículo.",
+      "second_answer": "Licencia de conducir y tarjeta de identificación.",
+      "correct_answer": "Licencia de conducir y tarjeta de identificación."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con una mano abierta hacia arriba?",
+      "first_answer": "Prohibido adelantar.",
+      "second_answer": "Zona de tráfico lento.",
+      "correct_answer": "Zona de tráfico lento."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia la derecha y una línea diagonal?",
+      "first_answer": "Carril exclusivo para buses.",
+      "second_answer": "Prohibido adelantar.",
+      "third_answer": "Prohibido girar a la derecha.",
+      "fouth_answer": "Prohibido adelantar a vehículos lentos.",
+      "correct_answer": "Prohibido adelantar."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a una rotonda o glorieta?",
+      "first_answer": "Ceder el paso a los vehículos que ya están circulando en la rotonda.",
+      "second_answer": "Acelerar para entrar rápidamente a la rotonda.",
+      "third_answer": "Tener la preferencia de paso sobre otros vehículos.",
+      "fouth_answer": "Detenerse antes de entrar a la rotonda.",
+      "correct_answer": "Ceder el paso a los vehículos que ya están circulando en la rotonda."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué deben hacer los conductores al ver una señal de tránsito con un límite de velocidad?",
+      "first_answer": "Exceder el límite de velocidad si el tráfico lo permite.",
+      "second_answer": "Mantenerse por debajo del límite de velocidad indicado.",
+      "third_answer": "Igualar la velocidad de otros vehículos en la carretera.",
+      "fouth_answer": "Aumentar la velocidad para adelantar a otros vehículos.",
+      "correct_answer": "Mantenerse por debajo del límite de velocidad indicado."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de alto octagonal?",
+      "first_answer": "Detenerse completamente y ceder el paso a otros vehículos.",
+      "second_answer": "Continuar sin detenerse si no hay otros vehículos cerca.",
+      "third_answer": "Disminuir la velocidad y continuar con precaución.",
+      "fouth_answer": "Ignorar la señal si no hay tráfico cruzando.",
+      "correct_answer": "Detenerse completamente y ceder el paso a otros vehículos."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al adelantar a un peatón en la carretera?",
+      "first_answer": "0.5 metros.",
+      "second_answer": "1 metro.",
+      "third_answer": "1.5 metros.",
+      "fouth_answer": "2 metros.",
+      "correct_answer": "1.5 metros."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué deben hacer los conductores al ver una señal de tránsito con una curva pronunciada a la izquierda?",
+      "first_answer": "Acelerar para tomar la curva más rápido.",
+      "second_answer": "Disminuir la velocidad y mantenerse en el carril derecho.",
+      "third_answer": "Ignorar la señal y continuar con la velocidad actual.",
+      "fouth_answer": "Mantenerse en el carril izquierdo para tomar la curva.",
+      "correct_answer": "Disminuir la velocidad y mantenerse en el carril derecho."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué significa una señal de tránsito con una figura de una persona caminando?",
+      "first_answer": "Zona peatonal.",
+      "second_answer": "Cruce de peatones.",
+      "third_answer": "Vía exclusiva para peatones.",
+      "fouth_answer": "Advertencia de peligro por peatones.",
+      "correct_answer": "Cruce de peatones."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz roja intermitente en un semáforo?",
+      "first_answer": "Detenerse y proceder con precaución.",
+      "second_answer": "Acelerar para cruzar antes de que cambie a verde.",
+      "third_answer": "Ignorar la señal y continuar con la velocidad actual.",
+      "fouth_answer": "Detenerse y esperar hasta que la luz cambie a verde.",
+      "correct_answer": "Detenerse y proceder con precaución."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una mano abierta hacia arriba?",
+      "first_answer": "Prohibido adelantar.",
+      "second_answer": "Zona de tráfico lento.",
+      "third_answer": "Zona de paso de peatones.",
+      "fouth_answer": "Zona de parada de autobuses escolares.",
+      "correct_answer": "Zona de tráfico lento."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con una bicicleta dibujada y una flecha hacia arriba?",
+      "first_answer": "Disminuir la velocidad y ceder el paso a los ciclistas.",
+      "second_answer": "Prohibido adelantar a los ciclistas.",
+      "third_answer": "Continuar a la misma velocidad.",
+      "fouth_answer": "Girar a la derecha y adelantar a los ciclistas.",
+      "correct_answer": "Disminuir la velocidad y ceder el paso a los ciclistas."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un triángulo rojo y un vehículo derrapando?",
+      "first_answer": "Advertencia de zona resbaladiza.",
+      "second_answer": "Advertencia de peligro por obras en la carretera.",
+      "third_answer": "Advertencia de curva peligrosa.",
+      "fouth_answer": "Advertencia de peligro por animales sueltos.",
+      "correct_answer": "Advertencia de zona resbaladiza."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al adelantar a un autobús escolar detenido con luces intermitentes encendidas?",
+      "first_answer": "1 metro.",
+      "second_answer": "3 metros.",
+      "third_answer": "5 metros.",
+      "fouth_answer": "7 metros.",
+      "correct_answer": "3 metros."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un camión con remolque cruzado?",
+      "first_answer": "Detenerse y esperar el paso del camión.",
+      "second_answer": "Continuar con la velocidad actual.",
+      "third_answer": "Reducir la velocidad y proceder con precaución.",
+      "fouth_answer": "Adelantar al camión lo más rápido posible.",
+      "correct_answer": "Reducir la velocidad y proceder con precaución."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a una zona de construcción en la carretera?",
+      "first_answer": "Aumentar la velocidad para pasar rápidamente.",
+      "second_answer": "Reducir la velocidad y estar atento a las señales de los trabajadores.",
+      "third_answer": "Ignorar las señales y continuar con la velocidad actual.",
+      "fouth_answer": "Acelerar para adelantar a los vehículos en la zona de construcción.",
+      "correct_answer": "Reducir la velocidad y estar atento a las señales de los trabajadores."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+      "first_answer": "Prohibido adelantar.",
+      "second_answer": "Paso obligatorio.",
+      "third_answer": "Desvío obligatorio a la derecha.",
+      "fouth_answer": "Desvío obligatorio a la izquierda.",
+      "correct_answer": "Desvío obligatorio a la derecha."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una luz amarilla intermitente en un semáforo?",
+      "first_answer": "Acelerar para pasar antes de que cambie a rojo.",
+      "second_answer": "Detenerse y prepararse para detenerse.",
+      "third_answer": "Continuar a la misma velocidad.",
+      "fouth_answer": "Detenerse completamente.",
+      "correct_answer": "Prepararse para detenerse."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la edad mínima para obtener una licencia de conducir para vehículos comerciales en Venezuela?",
+      "first_answer": "18 años.",
+      "second_answer": "21 años.",
+      "third_answer": "23 años.",
+      "fouth_answer": "25 años.",
+      "correct_answer": "18 años."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un peatón y una flecha hacia la izquierda?",
+      "first_answer": "Cruce de peatones.",
+      "second_answer": "Zona de tráfico lento.",
+      "third_answer": "Prohibido adelantar.",
+      "fouth_answer": "Prohibido girar a la izquierda.",
+      "correct_answer": "Prohibido girar a la izquierda."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el límite de alcohol en sangre permitido para conductores de motocicletas en Venezuela?",
+      "first_answer": "0.00%.",
+      "second_answer": "0.05%.",
+      "third_answer": "0.08%.",
+      "fouth_answer": "0.10%.",
+      "correct_answer": "0.00%."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con una bicicleta dibujada y una flecha hacia arriba?",
+      "first_answer": "Reducir la velocidad y ceder el paso a los ciclistas.",
+      "second_answer": "Prohibido adelantar a los ciclistas.",
+      "third_answer": "Continuar a la misma velocidad.",
+      "fouth_answer": "Girar a la izquierda y adelantar a los ciclistas.",
+      "correct_answer": "Reducir la velocidad y ceder el paso a los ciclistas."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y un camión volcado?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Desvío obligatorio a la derecha.",
+      "third_answer": "Advertencia de peligro por volcamiento.",
+      "fouth_answer": "Paso obligatorio.",
+      "correct_answer": "Advertencia de peligro por volcamiento."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una autopista en condiciones normales?",
+      "first_answer": "60 km/h.",
+      "second_answer": "80 km/h.",
+      "third_answer": "100 km/h.",
+      "fouth_answer": "120 km/h.",
+      "correct_answer": "100 km/h."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+      "first_answer": "Prohibido adelantar.",
+      "second_answer": "Paso obligatorio.",
+      "third_answer": "Desvío obligatorio a la izquierda.",
+      "fouth_answer": "Desvío obligatorio a la derecha.",
+      "correct_answer": "Desvío obligatorio a la izquierda."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una luz roja en un semáforo?",
+      "first_answer": "Acelerar y cruzar rápidamente.",
+      "second_answer": "Detenerse completamente y ceder el paso.",
+      "third_answer": "Continuar si no hay otros vehículos cruzando.",
+      "fouth_answer": "Reducir la velocidad y continuar.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia arriba y otra hacia abajo?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Desvío obligatorio a la derecha.",
+      "third_answer": "Prohibido adelantar.",
+      "fouth_answer": "Zona de sentido único.",
+      "correct_answer": "Zona de sentido único."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al seguir a una ambulancia en la carretera?",
+      "first_answer": "1 metro.",
+      "second_answer": "3 metros.",
+      "third_answer": "5 metros.",
+      "fouth_answer": "7 metros.",
+      "correct_answer": "5 metros."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con una flecha hacia abajo y la palabra 'UNICAMENTE'?",
+      "first_answer": "Continuar en la dirección actual.",
+      "second_answer": "Girar a la derecha obligatoriamente.",
+      "third_answer": "Girar a la izquierda obligatoriamente.",
+      "fouth_answer": "Seguir recto.",
+      "correct_answer": "Girar a la derecha obligatoriamente."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una zona residencial?",
+      "first_answer": "30 km/h.",
+      "second_answer": "40 km/h.",
+      "third_answer": "50 km/h.",
+      "fouth_answer": "60 km/h.",
+      "correct_answer": "30 km/h."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Qué indica una señal de tránsito con una flecha hacia abajo y la palabra 'STOP'?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Desvío obligatorio a la derecha.",
+      "third_answer": "Prohibido adelantar.",
+      "fouth_answer": "Detenerse completamente y ceder el paso.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado3",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz amarilla en un semáforo?",
+      "first_answer": "Acelerar para cruzar antes de que cambie a rojo.",
+      "second_answer": "Prepararse para detenerse.",
+      "third_answer": "Continuar a la misma velocidad.",
+      "fouth_answer": "Ignorar la señal y continuar.",
+      "correct_answer": "Prepararse para detenerse."
+    }
+  ]
+}

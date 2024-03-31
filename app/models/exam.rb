@@ -24,4 +24,18 @@ class Exam < ApplicationRecord
 
         quizzes.shuffle
     end
+
+    def self.load_exams(route)
+        file = File.read(route)
+        data = JSON.parse(file)
+
+        data["exam"].each do |exam|
+            Exam.create(
+                question: exam["question"],
+                level: exam["level"],
+                correct_answer: exam["correct_answer"],
+                answers: [exam["first_answer"], exam["second_answer"], exam["third_answer"], exam["fourth_answer"]].compact,
+            )
+        end
+    end
 end

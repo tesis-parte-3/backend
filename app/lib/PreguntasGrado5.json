@@ -1,0 +1,394 @@
+{
+  "exam": [
+    {
+      "level": "grado5",
+      "question": "¿Cuál es la velocidad máxima permitida en una autopista para vehículos de grado 5 en condiciones normales?",
+      "first_answer": "60 km/h.",
+      "second_answer": "80 km/h.",
+      "third_answer": "100 km/h.",
+      "fourth_answer": "120 km/h.",
+      "correct_answer": "100 km/h."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y un camión volcado?",
+      "first_answer": "Desvío obligatorio a la derecha.",
+      "second_answer": "Desvío obligatorio a la izquierda.",
+      "third_answer": "Advertencia de peligro por volcamiento.",
+      "fourth_answer": "Prohibido adelantar.",
+      "correct_answer": "Advertencia de peligro por volcamiento."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a un cruce de ferrocarril en un vehículo de grado 5?",
+      "first_answer": "Acelerar para cruzar rápidamente antes de que pase el tren.",
+      "second_answer": "Detenerse antes del cruce y asegurarse de que no viene ningún tren.",
+      "third_answer": "Ignorar la señal y continuar con la velocidad actual.",
+      "fourth_answer": "Reducir la velocidad y mirar a ambos lados antes de cruzar.",
+      "correct_answer": "Detenerse antes del cruce y asegurarse de que no viene ningún tren."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una luz verde en un semáforo para vehículos de grado 5?",
+      "first_answer": "Detenerse.",
+      "second_answer": "Proceder con precaución.",
+      "third_answer": "Acelerar.",
+      "fourth_answer": "Reducir la velocidad.",
+      "correct_answer": "Proceder con precaución."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una zona residencial para vehículos de grado 5?",
+      "first_answer": "30 km/h.",
+      "second_answer": "40 km/h.",
+      "third_answer": "50 km/h.",
+      "fourth_answer": "60 km/h.",
+      "correct_answer": "30 km/h."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una luz amarilla en un semáforo en un vehículo de grado 5?",
+      "first_answer": "Acelerar para cruzar antes de que cambie a rojo.",
+      "second_answer": "Detenerse y prepararse para detenerse.",
+      "third_answer": "Continuar a la misma velocidad.",
+      "fourth_answer": "Ignorar la señal y continuar.",
+      "correct_answer": "Prepararse para detenerse."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+      "first_answer": "Prohibido adelantar.",
+      "second_answer": "Paso obligatorio.",
+      "third_answer": "Desvío obligatorio a la izquierda.",
+      "fourth_answer": "Desvío obligatorio a la derecha.",
+      "correct_answer": "Paso obligatorio."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz roja en un semáforo en un vehículo de grado 5?",
+      "first_answer": "Acelerar y cruzar rápidamente.",
+      "second_answer": "Detenerse completamente y ceder el paso.",
+      "third_answer": "Continuar si no hay otros vehículos cruzando.",
+      "fourth_answer": "Reducir la velocidad y continuar.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un círculo rojo y la palabra 'STOP' en un vehículo de grado 5?",
+      "first_answer": "Continuar con precaución.",
+      "second_answer": "Detenerse completamente y ceder el paso.",
+      "third_answer": "Acelerar y cruzar rápidamente.",
+      "fourth_answer": "Reducir la velocidad y continuar.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al seguir a otro vehículo en una autopista en un vehículo de grado 5?",
+      "first_answer": "1 segundo.",
+      "second_answer": "2 segundos.",
+      "third_answer": "3 segundos.",
+      "fourth_answer": "4 segundos.",
+      "correct_answer": "2 segundos."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es la edad mínima requerida para obtener una licencia de conducir de grado 5 en Venezuela?",
+      "first_answer": "16 años.",
+      "second_answer": "18 años.",
+      "correct_answer": "18 años."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una luz roja en un semáforo en un vehículo de grado 5?",
+      "first_answer": "Continuar con precaución.",
+      "second_answer": "Detenerse completamente y ceder el paso.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y un camión volcado?",
+      "first_answer": "Desvío obligatorio a la derecha.",
+      "second_answer": "Advertencia de peligro por volcamiento.",
+      "correct_answer": "Advertencia de peligro por volcamiento."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una autopista en condiciones normales para vehículos de grado 5?",
+      "first_answer": "80 km/h.",
+      "second_answer": "100 km/h.",
+      "correct_answer": "100 km/h."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un círculo rojo y la palabra 'STOP' en un vehículo de grado 5?",
+      "first_answer": "Continuar con precaución.",
+      "second_answer": "Detenerse completamente y ceder el paso.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz amarilla en un semáforo en un vehículo de grado 5?",
+      "first_answer": "Acelerar y cruzar antes de que cambie a rojo.",
+      "second_answer": "Prepararse para detenerse.",
+      "correct_answer": "Prepararse para detenerse."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Paso obligatorio.",
+      "correct_answer": "Paso obligatorio."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al seguir a otro vehículo en una autopista en un vehículo de grado 5?",
+      "first_answer": "1 segundo.",
+      "second_answer": "2 segundos.",
+      "correct_answer": "2 segundos."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una luz verde en un semáforo en un vehículo de grado 5?",
+      "first_answer": "Detenerse.",
+      "second_answer": "Proceder con precaución.",
+      "correct_answer": "Proceder con precaución."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo rojo y la palabra 'PELIGRO'?",
+      "first_answer": "Prohibido adelantar.",
+      "second_answer": "Advertencia de peligro.",
+      "correct_answer": "Advertencia de peligro."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el límite de alcohol en sangre permitido para conductores novatos en Venezuela en un vehículo de grado 5?",
+      "first_answer": "0.02%.",
+      "second_answer": "0.05%.",
+      "correct_answer": "0.02%."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un círculo rojo y una línea a través de una bicicleta en un vehículo de grado 5?",
+      "first_answer": "Continuar con precaución.",
+      "second_answer": "Prohibido el paso de bicicletas.",
+      "correct_answer": "Prohibido el paso de bicicletas."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a un cruce de ferrocarril en un vehículo de grado 5?",
+      "first_answer": "Acelerar para cruzar rápidamente antes de que pase el tren.",
+      "second_answer": "Detenerse antes del cruce y asegurarse de que no viene ningún tren.",
+      "correct_answer": "Detenerse antes del cruce y asegurarse de que no viene ningún tren."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo amarillo y una flecha hacia arriba en un vehículo de grado 5?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Paso obligatorio.",
+      "correct_answer": "Paso obligatorio."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una bicicleta dibujada en un vehículo de grado 5?",
+      "first_answer": "Zona de ciclistas.",
+      "second_answer": "Cruce de bicicletas.",
+      "correct_answer": "Cruce de bicicletas."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo amarillo y la palabra 'PELIGRO' en un vehículo de grado 5?",
+      "first_answer": "Acelerar.",
+      "second_answer": "Estar alerta a posibles peligros en la carretera.",
+      "correct_answer": "Estar alerta a posibles peligros en la carretera."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una zona residencial para vehículos de grado 5?",
+      "first_answer": "40 km/h.",
+      "second_answer": "50 km/h.",
+      "correct_answer": "40 km/h."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia abajo en un vehículo de grado 5?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Paso obligatorio.",
+      "correct_answer": "Paso obligatorio."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una luz roja intermitente en un semáforo en un vehículo de grado 5?",
+      "first_answer": "Acelerar.",
+      "second_answer": "Detenerse y ceder el paso.",
+      "correct_answer": "Detenerse y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es la distancia mínima que se debe mantener al seguir a otro vehículo en una autopista para vehículos de grado 5?",
+      "first_answer": "3 segundos.",
+      "second_answer": "4 segundos.",
+      "correct_answer": "3 segundos."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y la imagen de un peatón?",
+      "first_answer": "Zona de paso peatonal.",
+      "second_answer": "Advertencia de peatones cruzando.",
+      "third_answer": "Cruce de bicicletas.",
+      "correct_answer": "Advertencia de peatones cruzando."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a una zona escolar en un vehículo de grado 5?",
+      "first_answer": "Aumentar la velocidad para pasar rápidamente.",
+      "second_answer": "Reducir la velocidad y estar atento a la presencia de niños.",
+      "third_answer": "Ignorar la señal y continuar sin cambios.",
+      "correct_answer": "Reducir la velocidad y estar atento a la presencia de niños."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una luz amarilla en un semáforo para vehículos de grado 5?",
+      "first_answer": "Detenerse.",
+      "second_answer": "Continuar con precaución.",
+      "third_answer": "Acelerar para cruzar antes de que cambie a rojo.",
+      "correct_answer": "Continuar con precaución."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con una mano abierta hacia arriba?",
+      "first_answer": "Continuar con precaución.",
+      "second_answer": "Detenerse.",
+      "third_answer": "Acelerar para pasar rápidamente.",
+      "correct_answer": "Detenerse."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una autopista para vehículos de grado 5 en condiciones normales?",
+      "first_answer": "80 km/h.",
+      "second_answer": "100 km/h.",
+      "third_answer": "120 km/h.",
+      "correct_answer": "100 km/h."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un círculo rojo y la palabra 'STOP'?",
+      "first_answer": "Continuar con precaución.",
+      "second_answer": "Detenerse completamente y ceder el paso.",
+      "third_answer": "Reducir la velocidad y continuar.",
+      "correct_answer": "Detenerse completamente y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia arriba?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Paso obligatorio.",
+      "third_answer": "Desvío obligatorio a la derecha.",
+      "correct_answer": "Paso obligatorio."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz roja intermitente en un semáforo?",
+      "first_answer": "Acelerar.",
+      "second_answer": "Continuar con precaución.",
+      "third_answer": "Detenerse y ceder el paso.",
+      "correct_answer": "Detenerse y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo amarillo y una bicicleta dibujada?",
+      "first_answer": "Reducir la velocidad.",
+      "second_answer": "Mantener la velocidad actual.",
+      "third_answer": "Estar alerta a la presencia de ciclistas.",
+      "correct_answer": "Estar alerta a la presencia de ciclistas."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a una intersección sin señales de tráfico en un vehículo de grado 5?",
+      "first_answer": "Acelerar y pasar rápidamente.",
+      "second_answer": "Reducir la velocidad y ceder el paso al tráfico que se aproxima desde la derecha.",
+      "third_answer": "Ignorar la intersección y continuar sin cambios.",
+      "correct_answer": "Reducir la velocidad y ceder el paso al tráfico que se aproxima desde la derecha."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y la imagen de un camión?",
+      "first_answer": "Zona de estacionamiento de camiones.",
+      "second_answer": "Advertencia de tráfico pesado.",
+      "third_answer": "Cruce de camiones.",
+      "correct_answer": "Advertencia de tráfico pesado."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a una curva cerrada en un vehículo de grado 5?",
+      "first_answer": "Acelerar para salir rápidamente de la curva.",
+      "second_answer": "Reducir la velocidad y ajustar la dirección para tomar la curva de manera segura.",
+      "third_answer": "Continuar a la misma velocidad sin cambios.",
+      "correct_answer": "Reducir la velocidad y ajustar la dirección para tomar la curva de manera segura."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una luz verde en un semáforo para vehículos de grado 5?",
+      "first_answer": "Detenerse.",
+      "second_answer": "Proceder con precaución.",
+      "third_answer": "Acelerar.",
+      "correct_answer": "Proceder con precaución."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con una flecha verde hacia la derecha?",
+      "first_answer": "Girar a la izquierda.",
+      "second_answer": "Girar a la derecha.",
+      "third_answer": "Continuar en línea recta.",
+      "correct_answer": "Girar a la derecha."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el límite de velocidad máxima permitido en una zona residencial para vehículos de grado 5?",
+      "first_answer": "30 km/h.",
+      "second_answer": "40 km/h.",
+      "third_answer": "50 km/h.",
+      "correct_answer": "30 km/h."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo amarillo y la palabra 'PELIGRO'?",
+      "first_answer": "Acelerar.",
+      "second_answer": "Estar alerta a posibles peligros en la carretera.",
+      "third_answer": "Continuar con la velocidad actual.",
+      "correct_answer": "Estar alerta a posibles peligros en la carretera."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué indica una señal de tránsito con un triángulo amarillo y una flecha hacia abajo?",
+      "first_answer": "Desvío obligatorio a la izquierda.",
+      "second_answer": "Paso obligatorio.",
+      "third_answer": "Desvío obligatorio a la derecha.",
+      "correct_answer": "Paso obligatorio."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al ver una luz roja intermitente en un semáforo?",
+      "first_answer": "Acelerar.",
+      "second_answer": "Continuar con precaución.",
+      "third_answer": "Detenerse y ceder el paso.",
+      "correct_answer": "Detenerse y ceder el paso."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Qué debe hacer un conductor al ver una señal de tránsito con un triángulo amarillo y una bicicleta dibujada?",
+      "first_answer": "Reducir la velocidad.",
+      "second_answer": "Mantener la velocidad actual.",
+      "third_answer": "Estar alerta a la presencia de ciclistas.",
+      "correct_answer": "Estar alerta a la presencia de ciclistas."
+    },
+    {
+      "level": "grado5",
+      "question": "¿Cuál es el procedimiento correcto al acercarse a un cruce de ferrocarril en un vehículo de grado 5?",
+      "first_answer": "Acelerar para cruzar rápidamente antes de que pase el tren.",
+      "second_answer": "Detenerse antes del cruce y asegurarse de que no viene ningún tren.",
+      "third_answer": "Ignorar la señal y continuar con la velocidad actual.",
+      "correct_answer": "Detenerse antes del cruce y asegurarse de que no viene ningún tren."
+    }
+  ]
+}
