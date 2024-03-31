@@ -19,7 +19,6 @@ class User < ApplicationRecord
     has_secure_password
     mount_uploader :avatar, AvatarUploader
 
-    after_create :set_stats
     after_create :welcome_email
     before_save :normalize
 
@@ -130,10 +129,5 @@ class User < ApplicationRecord
 
     def normalize
         self.email = self.email.downcase
-    end
-
-    def set_stats
-        self.approved_exams = 0
-        self.reproved_exams = 0
     end
 end

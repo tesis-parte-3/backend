@@ -80,6 +80,8 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     token = JsonWebToken.encode(user_id: @user.id)
     time = Time.now + 7.days.to_i
+    @user.reproved_exams = 0
+    @user.approved_exams = 0
     if @user.save
       render json: { token: token, exp: time.strftime("%d-%m-%Y %H:%M"), user: @user }, status: :created
     else
