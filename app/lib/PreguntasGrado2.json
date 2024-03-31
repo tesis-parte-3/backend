@@ -29,7 +29,7 @@
       },
       {
         "level":"grado2",
-        "question":"¿Qué debe hacer un motociclista al ver una señal de tránsito con una flecha hacia abajo y la palabra "UNICAMENTE"?",
+        "question":"¿Qué debe hacer un motociclista al ver una señal de tránsito con una flecha hacia abajo y la palabra 'UNICAMENTE'?",
         "first_answer":"Continuar en la dirección actual.",
         "second_answer":"Seguir recto.",
         "third_answer":"Girar a la derecha obligatoriamente.",
@@ -449,7 +449,6 @@
         "third_answer":"Reducir la velocidad de manera segura.",
         "fourth_answer":"Conducir mientras usa el teléfono celular.",
         "correct_answer":"Reducir la velocidad de manera segura."
-      },
-  
+      }
     ]
   }
